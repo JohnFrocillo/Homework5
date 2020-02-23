@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+// This comment is a test to see if the git is connected correctly.
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
