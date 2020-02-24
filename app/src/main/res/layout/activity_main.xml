@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/fromLabel"
+        android:id="@+id/fromTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/conversionTitle" />
 
     <TextView
-        android:id="@+id/ToTextField"
+        android:id="@+id/ToTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -48,7 +48,7 @@
         android:layout_marginTop="16dp"
         android:text="Yards"
         app:layout_constraintStart_toEndOf="@+id/enterFrom"
-        app:layout_constraintTop_toBottomOf="@+id/fromLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/fromTextView" />
 
     <TextView
         android:id="@+id/toUnits"
@@ -58,7 +58,7 @@
         android:layout_marginTop="16dp"
         android:text="Meters"
         app:layout_constraintStart_toEndOf="@+id/enterTo"
-        app:layout_constraintTop_toBottomOf="@+id/ToTextField" />
+        app:layout_constraintTop_toBottomOf="@+id/ToTextView" />
 
     <EditText
         android:id="@+id/enterFrom"
@@ -70,7 +70,7 @@
         android:hint="Enter from value"
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fromLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/fromTextView" />
 
     <EditText
         android:id="@+id/enterTo"
@@ -82,7 +82,7 @@
         android:hint="Enter to value"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ToTextField" />
+        app:layout_constraintTop_toBottomOf="@+id/ToTextView" />
 
     <Button
         android:id="@+id/calculateButton"
