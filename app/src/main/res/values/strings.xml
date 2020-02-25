@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Homework5</string>
+    <string name="title_activity_settings">Settings</string>
+    <string-array name="lengthChoices">
+        <item>Yards</item>
+        <item>Meters</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="volumeChoices">
+        <item>Liters</item>
+        <item>Quarts</item>
+        <item>Gallons</item>
+    </string-array>
 </resources>
